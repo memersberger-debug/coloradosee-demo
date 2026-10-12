@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Anleitung zur Demo – Angelplätze Coloradosee</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    article { max-width: 760px; margin: 0 auto; padding: 16px; }
+    article ol, article ul { padding-left: 22px; }
+    article li { margin: 6px 0; }
+    .box { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; margin: 14px 0; }
+    .go { display: inline-block; margin: 8px 0; text-decoration: none; background: var(--brand); color: var(--brand-text); padding: 10px 18px; border-radius: 6px; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <div class="demo-banner">DEMO mit Beispieldaten – nichts hier ist echt, nichts wird versendet oder weitergegeben.</div>
+  <article>
+    <h1>Reservierung der Angelplätze – Demo zum Ausprobieren</h1>
+    <p><a class="btn go" href="index.html">Demo öffnen</a></p>
+
+    <h2>Worum geht es?</h2>
+    <p>Eine einfache Web-Seite (Handy und Computer), mit der die neun Angelplätze am Coloradosee reserviert und belegt werden können. Die Homepage verlinkt später nur darauf. Öffentlich sieht jeder nur, ob ein Platz frei ist – <b>keine Namen</b>. Reservieren können nur freigegebene Benutzer.</p>
+
+    <h2>So probierst du es aus</h2>
+    <p>Oben rechts wählst du „Demo-Ansicht als …“. Das ersetzt die spätere Anmeldung.</p>
+    <ol>
+      <li><b>Gast:</b> Verfügbarkeit ansehen (jetzt und für spätere Zeiten, Zeitleiste für 14 Tage). Dann „Registrieren“ – du erhältst eine Info, dass Erwin Schuster freigeben muss.</li>
+      <li><b>Betreiber (Erwin Schuster):</b> Tab „Benutzer“ → neue Registrierung <b>freigeben</b> (gilt für die Saison = Kalenderjahr). Jahreskarten-Zugänge anlegen. Tab „Postfach“ zeigt, welche E-Mails verschickt würden.</li>
+      <li><b>Mitglied / Jahreskarte (Max Muster):</b> reservieren (auch mehrere Tage), Platz <b>spontan belegen</b>, Ankunft bestätigen, Platz freigeben, verlängern, stornieren.</li>
+      <li><b>Telefonbuchung:</b> als Betreiber → „Betreiber“ → „Telefonische Buchung“ → „Neuen Benutzer anlegen“ und gleich für ihn reservieren.</li>
+      <li><b>Platz 4</b> zeigt „Belegung ungeklärt“ (geplantes Ende überschritten, keine Freigabe). Als Betreiber „Platz ist geräumt“ klickt es auf frei.</li>
+      <li><b>Regeln ändern:</b> Betreiber → „Regeln &amp; Plätze“. Alle Zahlen (Vorlauf, Dauer, Karenzzeit …) kann Erwin Schuster selbst anpassen; Platznamen und Hinweise ebenso.</li>
+      <li><b>QR-Codes:</b> Betreiber → „QR-Codes“ (zum Ausdrucken, je Platz einer).</li>
+      <li>Ganz unten „Demo-Steuerung“: Uhr vorstellen (z. B. +6 Stunden) und Beispieldaten zurücksetzen.</li>
+    </ol>
+
+    <div class="box">
+      <b>Was in der Demo anders ist als später:</b>
+      <ul>
+        <li>Daten liegen nur in diesem Browser – andere sehen deine Eingaben nicht.</li>
+        <li>E-Mails werden nicht verschickt (nur im „Postfach“ angezeigt).</li>
+        <li>Anmeldung ist nur simuliert; später per E-Mail-Link, mit zentraler Datenbank.</li>
+      </ul>
+    </div>
+
+    <h2>Aktuelle Annahmen (bitte korrigieren)</h2>
+    <ul>
+      <li><b>Tageskarte:</b> 5:00–22:00 Uhr (laut Teichordnung). <b>24-Stunden-Karte:</b> 24 Stunden ab Beginn. <b>Jahreskarte:</b> gilt immer.</li>
+      <li>Reservierung höchstens <b>14 Tage im Voraus</b> und <b>5 Tage lang</b>; der Platz bleibt über Nacht reserviert.</li>
+      <li>Jahreskarte und Freigabe gelten pro Saison und laufen zum Jahreswechsel ab; bestehende Reservierungen bleiben.</li>
+      <li><b>Vorschläge von uns, nicht vorgegeben:</b> 2 offene Reservierungen pro Person, Platz wird 3 Stunden nach Beginn ohne Ankunftsbestätigung wieder frei, spontan höchstens 48 Stunden, Storno ohne Vermerk bis 24 Stunden vorher.</li>
+    </ul>
+
+    <h2>Fragen an Erwin Schuster</h2>
+    <ol>
+      <li>Passt der Ablauf: registrieren → Erwin gibt frei → reservieren? Soll jede Jahreskarte einen fixen Zugang bekommen (wer legt ihn an)?</li>
+      <li><b>24-Stunden-Karte:</b> gilt sie 24 Stunden ab Beginn oder für einen festen Zeitraum? Darf man damit nachts fischen?</li>
+      <li><b>Nachtfischen:</b> Gibt es dafür Termine, die die App kennen soll?</li>
+      <li>Sind die Vorschläge okay (2 offene Reservierungen, 3 Stunden Karenzzeit, 48 Stunden spontan, 24 Stunden Stornofrist)? Was soll bei häufigem Nichterscheinen passieren (die App zeigt dann nur eine Warnung)?</li>
+      <li>Wer darf die Ankunft bestätigen – der Gast selbst, du, oder beide?</li>
+      <li>Soll in der Übersicht öffentlich sichtbar sein, <i>wann</i> ein Platz belegt ist (ohne Namen)? Oder nur „jetzt frei/belegt“?</li>
+      <li>Welche Platznamen/Hinweise (z. B. „nur zu Fuß erreichbar“) sollen angezeigt werden? Gibt es Fotos?</li>
+      <li>Gebühren/Bezahlung: bleibt das beim Kartenkauf wie bisher (die App kennt keine Preise)?</li>
+      <li>Datenschutz: Wie lange dürfen Buchungsdaten gespeichert werden? Ein Datenschutztext muss ergänzt werden.</li>
+      <li>E-Mail-Adresse für die Benachrichtigungen an dich – und wer verwaltet später das (kostenlose) Datenbank-Konto?</li>
+    </ol>
+    <p class="muted small">Rückmeldungen bitte einfach per Nachricht oder Anruf – auch „das stört mich“ oder „das fehlt“.</p>
+  </article>
+</body>
+</html>
